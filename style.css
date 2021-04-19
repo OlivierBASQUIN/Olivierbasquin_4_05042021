@@ -8,12 +8,13 @@ body {
     font-size: 16px;
 }
 
-.page-container {
-    max-width: 1400px;
+#form_1 {
+    width: 95%;
     margin: auto;
 }
-main {
-    max-width: 1400px;
+
+.col-sm-6 img{
+    width: 100%;
     margin: auto;
 }
 
@@ -66,12 +67,11 @@ input {
 }
 
 .bloc {
-    max-width: 1300px;
     margin: auto;
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -443,6 +443,7 @@ input {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -657,6 +658,9 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+        margin: 12px 0 0 0;
+        font-size: 15px;
+        text-align: center;
 }
 
 .close-lightbox {
@@ -904,7 +908,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
