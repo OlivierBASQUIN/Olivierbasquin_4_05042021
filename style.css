@@ -191,6 +191,8 @@ input {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgb(44, 43, 43);
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    transform: scale(1.2);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -315,7 +317,8 @@ input {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -408,6 +411,28 @@ input {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.navcontact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navcontact a {
+    margin: 0 70px 0 10px;
+    color: rgba(0, 0, 0, .6);
+    font-size: 30px;
+}
+
+.navcontact a:hover {
+   text-decoration: underline;
+   color: black;
+   text-shadow: 1px 1px 10px orange;
+}
+
+.navcontact ul {
+    list-style-type: none;
 }
 
 @media (min-width: 768px) {
@@ -554,7 +579,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 0.479);
     box-shadow: none;
 }
 
@@ -730,7 +755,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
